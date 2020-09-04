@@ -12,8 +12,7 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 5.  data.jdbc插件
 6.  data.jdbc.template插件
 7.  hibernate插件
-8.  插件国际化
-9.  前端容器资源插件
+8.  前端容器资源插件
 
 #### 前端架构
 1. AngularJS v1.4.7
