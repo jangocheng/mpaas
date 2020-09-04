@@ -13,6 +13,7 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 6.  data.jdbc.template插件
 7.  hibernate插件
 8.  插件国际化
+9.  前端容器资源插件
 #### 安装教程
 
 1.  现在只是雏形··下载代码跑一下，看看代码！
