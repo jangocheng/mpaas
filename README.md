@@ -4,8 +4,14 @@
 ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里没有IaaS、SaaS等等，只要你写相应的模块或插件功能就有对应的服务功能，完美演绎国际化中台概念，一套充满想象的模块化基础架构，
 在这里技术没有天花板，只是有没足够时间与人力来完善它...
 #### 软件架构
-软件架构说明
-
+目前完成部件：
+1.  内核与基础框架
+2.  IOC
+3.  Maven插件
+4.  SSH管理前后端插件
+5.  data.jdbc插件
+6.  data.jdbc.template插件
+7.  hibernate插件
 #### 安装教程
 
 1.  现在只是雏形··下载代码跑一下，看看代码！
@@ -21,5 +27,5 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 #### 参与贡献
 
 1.  项目招募联合贡献者，有意愿QQ：27048384，交流群QQ：29044972，微信手机：13715848993
-2.  联合贡献者前期完善内容AOP切面插件、transaction事务插件、jpa插件、mongodb插件、mybatis插件、redis插件、nginx插件。
+2.  联合贡献者前期完善内容AOP切面插件、transaction事务插件、jpa插件、mongodb插件、mybatis插件、redis插件、nginx插件等等。
 3.  联合贡献者全程做技术交流。
