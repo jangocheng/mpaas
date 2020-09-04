@@ -15,7 +15,7 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 
 #### 使用说明
 
-1.  xxxx
+1.  后面spring生态有的功能都会有，spring生态没有的功能也会有，缺联合贡献者！
 2.  xxxx
 3.  xxxx
 
