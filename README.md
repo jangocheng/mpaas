@@ -22,3 +22,4 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 
 1.  项目招募联合贡献者，有意愿QQ：27048384，交流群QQ：29044972，微信手机：13715848993
 2.  联合贡献者前期完善内容AOP切面插件、transaction事务插件、jpa插件、mongodb插件、mybatis插件、redis插件、nginx插件。
+3.  联合贡献者全程做技术交流。
