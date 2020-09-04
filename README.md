@@ -19,6 +19,7 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 2. angular-ui-bootstrap v0.12.1
 3. query v3.5.1
 4. CodeMirror 
+5. Xterm.js
 #### 安装教程
 
 1.  现在只是雏形··下载代码跑一下，看看代码！
