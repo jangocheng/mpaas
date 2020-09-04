@@ -23,7 +23,6 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 
 1.  项目招募联合贡献者，有意愿QQ：27048384，交流群QQ：29044972，微信手机：13715848993
 
-
 #### 码云特技
 
 1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
