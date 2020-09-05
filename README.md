@@ -33,6 +33,10 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 13. web session插件 ghost.framework.web.session.data.jdbc.plugin
 其它小部件插件就不再描述，后面完善再补充
 内容好很乱，后面一遍遍再完善...
+#### Jdk
+
+V1.8
+
 #### 前端架构
 
 之前前端也考虑用single-spa的vue来实现，但是总体还是不太合适，前后端一体化实现还是AngularJS 1.x最合适，目前！
