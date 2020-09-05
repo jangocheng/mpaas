@@ -47,6 +47,7 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 2.  ghost.framework.platform 项目作为测试启动项目
 3.  application.properties 配置 ghost.framework.datasource.url，ghost.framework.datasource.username， 
     ghost.framework.datasource.password三个数据库参数
+    ghost.framework.web.default.server.port修改下端口
 4.  ghost.framework.platform.PlatformApplication的私库修改为您自己的库注解 @MavenDepositorys 修改下
 5.  maven deploy下完成后就可以启动运行看效果
 #### 使用说明
