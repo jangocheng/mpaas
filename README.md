@@ -7,6 +7,8 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 
 有太多的想法跟思路，但是一个人确实效率有限！
 
+项目虽然拆分了很多spring生态代码但是完全不是spring架构技术，是一套全新的架构思路。
+
 #### 部分代码来源
 
 一部分代码拆分spring而来，一部分代码拆分tomcat webSocket而来。
