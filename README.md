@@ -11,12 +11,15 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 
 在IOC方面选择放弃SPI全称Service Provider Interface，以为使用SPI会让IOC变得不灵活。
 
+根目录下 doc\项目流程.vsdx有文档，但是可能部分没有及时同步代码变动。
+
 #### 部分代码来源
 
 一部分代码拆分spring而来，一部分代码拆分tomcat webSocket而来。
 拆分好了spring的jpa和aop代码，还没调试，jpa跟aop代码涉及量较大，还有其它模块或插件在spring生态中拆分出来的代码也还没调试！
 
 #### 软件架构
+
 目前完成部件（但是还有很多细节需要完善）：
 1.  内核与基础框架
 2.  IOC
@@ -33,6 +36,7 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 13. web session插件 ghost.framework.web.session.data.jdbc.plugin
 其它小部件插件就不再描述，后面完善再补充
 内容好很乱，后面一遍遍再完善...
+
 #### Jdk
 
 V1.8
