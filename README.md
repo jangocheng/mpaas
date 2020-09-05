@@ -28,7 +28,8 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 10. web服务模块 ghost.framework.undertow.web.module
 11. mvc插件 ghost.framework.web.mvc.plugin
 12. mvc thymeleaf模板插件 ghost.framework.web.mvc.thymeleaf.plugin 基本测试可以解析模板
-13. 其它小部件插件就不再描述，后面完善再补充
+13. web session插件 ghost.framework.web.session.data.jdbc.plugin
+其它小部件插件就不再描述，后面完善再补充
 内容好很乱，后面一遍遍再完善...
 #### 前端架构
 
