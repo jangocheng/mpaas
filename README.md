@@ -60,10 +60,11 @@ Jdk V1.8
 3.  application.properties 配置 ghost.framework.datasource.url，ghost.framework.datasource.username， 
     ghost.framework.datasource.password三个数据库参数
     ghost.framework.web.default.server.port修改下端口
-4.  ghost.framework.platform.PlatformApplication的私库修改为您自己的库注解 @MavenDepositorys修改下为自己的私库，与根目录pom.xml修改 
+4.  创建一个ghost_session和ghost-framework两个空白数据库
+5.  ghost.framework.platform.PlatformApplication的私库修改为您自己的库注解 @MavenDepositorys修改下为自己的私库，与根目录pom.xml修改 
     下私库配置。
     如果自己没搭建私库可以在项目maven测试私库配置文件下的私库配置文件作为测试，那么直接下载代码后配置下maven文件就可以，可能有点慢！
-5.  maven deploy打包完成后就可以启动运行看效果
+6.  maven deploy打包完成后就可以启动运行看效果
 #### 使用说明
 
 1.  后面spring生态有的功能都会有，spring生态没有的功能也会有，缺联合贡献者！
