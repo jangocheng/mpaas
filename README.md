@@ -88,6 +88,10 @@ Jdk V1.8
 
 ![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B.png)
 
+#### 类型Bean流程（跟代码有点差别还没改）
+
+![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E7%B1%BB%E5%9E%8B%E6%B3%A8%E8%A7%A3Bean%E6%B5%81%E7%A8%8B.jpg)
+
 #### 实例效果图片
 
 ![Image text](https://gitee.com/guosc/mpaas/raw/master/img/ssh%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
