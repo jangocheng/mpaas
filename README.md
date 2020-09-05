@@ -75,3 +75,7 @@ Jdk V1.8
 2.  联合贡献者前期完善内容aop切面插件、transaction事务插件、jpa插件、mongodb插件、mybatis插件、redis插件、nginx插件、swagger插件、脚本管理插件等等。
 3.  联合贡献者全程做技术交流，期望联合贡献者有周末时间接触交流，交流地点深圳。
 4.  目标能把项目做成一个完善的开源paas项目。
+
+#### 实例效果图片
+
+![Image text](https://gitee.com/guosc/mpaas/blob/master/img/ssh%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
