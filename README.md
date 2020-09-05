@@ -1,13 +1,15 @@
 # mpaas
 
 #### 介绍
-ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里没有IaaS、SaaS等等，只要你写相应的模块或插件功能就有对应的服务功能，完美演绎国际化化模块paas中台概念，ci/cd、develop插件模块化，一套充满想象的模块化基础架构...。
+ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里可以是IaaS、SaaS等等，只要你写相应的模块或插件功能就有对应的服务功能，完美演绎国际化化模块paas中台概念，ci/cd、develop插件模块化，一套充满想象的模块化基础架构...。
 
 模块化与插件热加载热卸载，热卸载部分还没完成！，能热热加载就能热卸载··
 
 有太多的想法跟思路，但是一个人确实效率有限！
 
 项目虽然拆分了很多spring生态代码但是完全不是spring架构技术，是一套全新的架构思路。
+
+在IOC方面选择放弃SPI全称Service Provider Interface，以为使用SPI会让IOC变得不灵活。
 
 #### 部分代码来源
 
