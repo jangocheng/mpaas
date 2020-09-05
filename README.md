@@ -41,7 +41,7 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 
 Jdk V1.8
 
-1.0-SNAPSHOT
+目前项目 1.0-SNAPSHOT
 
 #### 前端架构
 
