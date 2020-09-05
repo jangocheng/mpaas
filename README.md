@@ -10,7 +10,7 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 #### 部分代码来源
 
 一部分代码拆分spring而来，一部分代码拆分tomcat webSocket而来。
-拆分好了spring的jpa代码，还没调试，还有其它模块或插件在spring生态中拆分出来的代码也还没调试！
+拆分好了spring的jpa和aop代码，还没调试，jpa跟aop代码涉及量较大，还有其它模块或插件在spring生态中拆分出来的代码也还没调试！
 
 #### 软件架构
 目前完成部件（但是还有很多细节需要完善）：
