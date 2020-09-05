@@ -18,9 +18,7 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 一部分代码拆分spring而来，一部分代码拆分tomcat webSocket而来。
 拆分好了spring的jpa和aop代码，还没调试，jpa跟aop代码涉及量较大，还有其它模块或插件在spring生态中拆分出来的代码也还没调试！
 
-#### 预览地址（家庭宽带可能不稳定··）
-
-[预览地址](http://mpaas.easy-cloud.online:8888)
+[预览地址（家庭宽带可能不稳定··）](http://mpaas.easy-cloud.online:8888)
 
 #### 软件架构
 
