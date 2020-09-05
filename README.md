@@ -78,4 +78,4 @@ Jdk V1.8
 
 #### 实例效果图片
 
-![Image text](https://gitee.com/guosc/mpaas/blob/master/img/ssh%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
+![Image text](https://gitee.com/guosc/mpaas/raw/master/img/ssh%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
