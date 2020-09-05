@@ -3,10 +3,14 @@
 #### 介绍
 ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里没有IaaS、SaaS等等，只要你写相应的模块或插件功能就有对应的服务功能，完美演绎国际化化模块paas中台概念，ci/cd、develop插件模块化，一套充满想象的模块化基础架构...。
 
+模块化与插件热加载热卸载，热卸载部分还没完成！
+
 有太多的想法跟思路，但是一个人确实效率有限！
+
 #### 部分代码来源
 
 一部分代码拆分spring而来，一部分代码拆分tomcat webSocket而来。
+拆分好了spring的jpa代码，还没调试，还有其它模块或插件在spring生态中拆分出来的代码也还没调试！
 
 #### 软件架构
 目前完成部件（但是还有很多细节需要完善）：
@@ -19,7 +23,7 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 7.  前端容器资源插件 ghost.framework.web.angular1x.container.plugin
 8.  webSocket插件 ghost.framework.web.socket.plugin
 9.  web解析模块 ghost.framework.web.module
-10.  web服务模块 ghost.framework.undertow.web.module
+10. web服务模块 ghost.framework.undertow.web.module
 11. mvc插件 ghost.framework.web.mvc.plugin
 12. mvc thymeleaf模板插件 ghost.framework.web.mvc.thymeleaf.plugin 基本测试可以解析模板
 13. 其它小部件插件就不再描述，后面完善再补充
