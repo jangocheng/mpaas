@@ -27,7 +27,7 @@ public class SimpleUploadFileDemo {
     // 将本地文件上传到COS
     public static void SimpleUploadFileFromLocal(boolean useTrafficLimit) {
         // 1 初始化用户身份信息(secretId, secretKey)
-        COSCredentials cred = new BasicCOSCredentials("AKIDBEPDTSIblSuYzHJ2UfWn8IL0O0LSmK5h", "XoZ3qMxOhmaATWRKxXKrVGslO90gdKn3");
+        COSCredentials cred = new BasicCOSCredentials("", "");
         // 2 设置bucket的区域, COS地域的简称请参照 https://www.qcloud.com/document/product/436/6224
         ClientConfig clientConfig = new ClientConfig(new Region("ap-chengdu"));
         // 3 生成cos客户端
