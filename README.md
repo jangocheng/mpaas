@@ -80,6 +80,10 @@ Jdk V1.8
 
 ![Image text](https://gitee.com/guosc/mpaas/raw/master/img/C%E3%80%81B%E3%80%81D%E7%AB%AF%E7%9A%84%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.jpg)
 
+#### 架构模型
+
+![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B.png)
+
 #### 实例效果图片
 
 ![Image text](https://gitee.com/guosc/mpaas/raw/master/img/ssh%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
