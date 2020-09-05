@@ -60,7 +60,8 @@ Jdk V1.8
 3.  application.properties 配置 ghost.framework.datasource.url，ghost.framework.datasource.username， 
     ghost.framework.datasource.password三个数据库参数
     ghost.framework.web.default.server.port修改下端口
-4.  ghost.framework.platform.PlatformApplication的私库修改为您自己的库注解 @MavenDepositorys 修改下，或者使用默认带的私库，可能速度 
+4.  ghost.framework.platform.PlatformApplication的私库修改为您自己的库注解 @MavenDepositorys修改下为自己的私库，与根目录pom.xml修改 
+    下私库配置。
     有点慢！
 5.  maven deploy打包完成后就可以启动运行看效果
 #### 使用说明
