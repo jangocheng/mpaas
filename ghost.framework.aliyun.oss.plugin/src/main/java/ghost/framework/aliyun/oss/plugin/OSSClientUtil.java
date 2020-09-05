@@ -15,8 +15,8 @@
 //public class OSSClientUtil {
 //    protected final Log logger = LogFactory.getLog(OSSClientUtil.class);
 //    private static String endpoint = "http://oss-cn-shenzhen.aliyuncs.com";
-//    private static String accessKeyId = "LTAIOHQD7vqSv62t";
-//    private static String accessKeySecret = "tvpHzV3in3WQJ0HQaTnbFCRDsvvjXn";
+//    private static String accessKeyId = "";
+//    private static String accessKeySecret = "";
 //    private static String filedirImage = "image/";
 //    private static String filedirVideo = "video/";
 //    private static String filedirForGift = "Images/";
