@@ -21,21 +21,22 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 #### 软件架构
 
 目前完成部件（但是还有很多细节需要完善）：
-1.  内核与基础框架
-2.  IOC
-3.  Maven插件 ghost.framework.maven.plugin
-4.  SSH管理前后端插件 ghost.framework.web.angular1x.ssh.plugin
-5.  data.jdbc.template插件 ghost.framework.data.jdbc.template.plugin
-6.  hibernate插件 ghost.framework.data.hibernate.plugin
-7.  前端容器资源插件 ghost.framework.web.angular1x.container.plugin
-8.  webSocket插件 ghost.framework.web.socket.plugin
-9.  web解析模块 ghost.framework.web.module
-10. web服务模块 ghost.framework.undertow.web.module
-11. mvc插件 ghost.framework.web.mvc.plugin
-12. mvc thymeleaf模板插件 ghost.framework.web.mvc.thymeleaf.plugin 基本测试可以解析模板
-13. web session插件 ghost.framework.web.session.data.jdbc.plugin
+1.  内核与基础框架。
+2.  IOC。
+3.  Maven插件 ghost.framework.maven.plugin。
+4.  SSH管理前后端插件 ghost.framework.web.angular1x.ssh.plugin。
+5.  data.jdbc.template插件 ghost.framework.data.jdbc.template.plugin。
+6.  hibernate插件 ghost.framework.data.hibernate.plugin。
+7.  前端容器资源插件 ghost.framework.web.angular1x.container.plugin。
+8.  webSocket插件 ghost.framework.web.socket.plugin。
+9.  web解析模块 ghost.framework.web.module。
+10. web服务模块 ghost.framework.undertow.web.module。
+11. mvc插件 ghost.framework.web.mvc.plugin。
+12. mvc thymeleaf模板插件 ghost.framework.web.mvc.thymeleaf.plugin 基本测试可以解析模板。
+13. web session插件 ghost.framework.web.session.data.jdbc.plugin。
+
 其它小部件插件就不再描述，后面完善再补充
-内容好很乱，后面一遍遍再完善...
+内容好很乱，后面一遍遍再完善...。
 
 #### 版本
 
