@@ -76,6 +76,10 @@ Jdk V1.8
 3.  联合贡献者全程做技术交流，期望联合贡献者有周末时间接触交流，交流地点深圳。
 4.  目标能把项目做成一个完善的开源paas项目。
 
+####  商业模式
+
+![Image text](https://gitee.com/guosc/mpaas/raw/master/img/C%E3%80%81B%E3%80%81D%E7%AB%AF%E7%9A%84%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.jpg)
+
 #### 实例效果图片
 
 ![Image text](https://gitee.com/guosc/mpaas/raw/master/img/ssh%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
