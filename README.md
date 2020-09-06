@@ -81,7 +81,7 @@ Jdk V1.8
 4.  目标能把项目做成一个完善的开源模块化paas项目。
 
 ####  商业模式
-
+![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E6%80%BB%E4%BD%93%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.jpg)
 ![Image text](https://gitee.com/guosc/mpaas/raw/master/img/C%E3%80%81B%E3%80%81D%E7%AB%AF%E7%9A%84%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.jpg)
 
 #### 架构模型
