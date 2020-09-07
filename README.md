@@ -9,7 +9,7 @@ ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里
 
 项目虽然拆分了很多spring生态代码但是完全不是spring架构技术，是一套全新的架构思路。
 
-新的RESTful解析架构体系标准。
+新的RESTful与MVC解析架构体系标准。
 
 在IOC方面选择放弃SPI（全称Service Provider Interface），因为使用SPI会让IOC变得不灵活。
 
