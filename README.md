@@ -110,4 +110,4 @@ Jdk V1.8
 
 #### 实例效果预览
 
-[预览地址（家庭宽带可能不稳定··）](http://mpaas.easy-cloud.online:8888)
+[预览地址](http://mpaas.easy-cloud.online:8888)
