@@ -81,32 +81,32 @@ Jdk V1.8
 4.  目标能把项目做成一个完善的开源模块化paas项目。
 
 ####  商业模式
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E6%80%BB%E4%BD%93%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.jpg)
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/C%E3%80%81B%E3%80%81D%E7%AB%AF%E7%9A%84%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.jpg)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E6%80%BB%E4%BD%93%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.jpg)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/C%E3%80%81B%E3%80%81D%E7%AB%AF%E7%9A%84%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.jpg)
 
 #### 架构模型
 
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B.png)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B.png)
 
 #### 启动流程
 
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B.png)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B.png)
 
 #### 类型Bean流程（跟代码有点差别还没改）
 
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E7%B1%BB%E5%9E%8B%E6%B3%A8%E8%A7%A3Bean%E6%B5%81%E7%A8%8B.jpg)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E7%B1%BB%E5%9E%8B%E6%B3%A8%E8%A7%A3Bean%E6%B5%81%E7%A8%8B.jpg)
 
 #### 实例效果图片
 
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/ssh%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E5%B7%A6%E8%BE%B9%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E5%AE%B9%E5%99%A8.jpg)
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E7%AE%A1%E7%90%86%E5%91%98%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E8%84%9A%E6%9C%AC%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E8%AE%BE%E7%BD%AE%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E4%B8%AD%E9%97%B4%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E5%8F%B3%E8%BE%B9%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E5%B7%A6%E8%BE%B9%E6%95%88%E6%9E%9C.jpg)
-![Image text](https://gitee.com/guosc/mpaas/raw/master/img/%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E6%8F%92%E4%BB%B6%E5%AE%B9%E5%99%A8.jpg)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/ssh%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E5%B7%A6%E8%BE%B9%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E5%AE%B9%E5%99%A8.jpg)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E7%AE%A1%E7%90%86%E5%91%98%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E8%84%9A%E6%9C%AC%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E8%AE%BE%E7%BD%AE%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E4%B8%AD%E9%97%B4%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E5%8F%B3%E8%BE%B9%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E5%B7%A6%E8%BE%B9%E6%95%88%E6%9E%9C.jpg)
+![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E6%8F%92%E4%BB%B6%E5%AE%B9%E5%99%A8.jpg)
 
 #### 实例效果预览
 
