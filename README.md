@@ -1,102 +1,102 @@
 # mpaas
 
-#### 介绍
-ghost framework mpaas 一套完全模块化的Paas平台基础架构，在这里可以是IaaS、SaaS等等，只要你写相应的模块或插件功能就有对应的服务功能，完美演绎国际化模块化paas中台概念，ci/cd、develop插件模块化，一套充满想象的模块化基础架构...。
+#### Introduction
+ghost framework mpaas A set of fully modularized Paas platform infrastructure, here can be IaaS, SaaS, etc., as long as you write the corresponding module or plug-in function, there will be corresponding service functions, perfect interpretation of the international modular paas concept , Ci/cd, develop plug-in modularization, a set of imaginative modular infrastructure...
 
-模块与插件热加载热卸载，热卸载部分还没完成！，能热加载就能热卸载，项目总体模块化架构已经非常清晰。
+Modules and plug-ins are hot-loaded and hot-unloaded, the hot-unloading part has not been completed yet! , Can be thermally loaded and thermally unloaded. The overall modular structure of the project is very clear.
 
-有太多的想法跟思路，但是一个人确实效率有限！
+There are too many ideas and ideas, but one person is really limited in efficiency!
 
-项目虽然拆分了很多spring生态代码但是完全不是spring架构技术，是一套全新的架构思路。
+Although the project has split a lot of spring ecological code, it is not a spring architecture technology at all, it is a new set of architectural ideas.
 
-新的RESTful与MVC解析架构体系标准。
+New RESTful and MVC analytical architecture system standards.
 
-在IOC方面选择放弃SPI（全称Service Provider Interface），因为使用SPI会让IOC变得不灵活。
+In terms of IOC, I chose to abandon SPI (full name Service Provider Interface), because using SPI will make IOC inflexible.
 
-根目录下 doc\项目流程.vsdx有文档，但是可能部分没有及时同步代码变动。
+There are documents in the root directory doc\project process.vsdx, but some code changes may not be synchronized in time.
 
-#### 部分代码来源
+#### Part of the code source
 
-一部分代码拆分spring而来，一部分代码拆分tomcat webSocket而来。
-拆分好了spring的jpa和aop代码，还没调试，jpa跟aop代码涉及量较大，还有其它模块或插件在spring生态中拆分出来的代码也还没调试！
+Part of the code split comes from spring, and part of the code split comes from tomcat webSocket.
+After splitting the spring jpa and aop codes, they have not been debugged yet. The jpa and aop codes involve a large amount, and there are other modules or plug-ins that split the code in the spring ecosystem and have not yet been debugged!
 
-#### 软件架构
+#### Software Architecture
 
-目前完成部件（但是还有很多细节需要完善）：
-1.  内核与基础框架。
-2.  IOC。
-3.  Maven插件 ghost.framework.maven.plugin。
-4.  SSH管理前后端插件 ghost.framework.web.angular1x.ssh.plugin。
-5.  data.jdbc.template插件 ghost.framework.data.jdbc.template.plugin。
-6.  hibernate插件 ghost.framework.data.hibernate.plugin。
-7.  前端容器资源插件 ghost.framework.web.angular1x.container.plugin。
-8.  webSocket插件 ghost.framework.web.socket.plugin。
-9.  web解析模块 ghost.framework.web.module。
-10. web服务模块 ghost.framework.undertow.web.module。
-11. mvc插件 ghost.framework.web.mvc.plugin。
-12. mvc thymeleaf模板插件 ghost.framework.web.mvc.thymeleaf.plugin 基本测试可以解析模板。
-13. web session插件 ghost.framework.web.session.data.jdbc.plugin。
+Currently completed parts (but there are still many details to be improved):
+1. Core and basic framework.
+2. IOC.
+3. Maven plugin ghost.framework.maven.plugin.
+4. SSH management front and back end plug-in ghost.framework.web.angular1x.ssh.plugin.
+5. Data.jdbc.template plug-in ghost.framework.data.jdbc.template.plugin.
+6. The hibernate plugin ghost.framework.data.hibernate.plugin.
+7. The front-end container resource plug-in ghost.framework.web.angular1x.container.plugin.
+8. The webSocket plugin ghost.framework.web.socket.plugin.
+9. The web analysis module ghost.framework.web.module.
+10. The web service module ghost.framework.undertow.web.module.
+11. The mvc plugin ghost.framework.web.mvc.plugin.
+12. Mvc thymeleaf template plugin ghost.framework.web.mvc.thymeleaf.plugin basic test can parse templates.
+13. web session plugin ghost.framework.web.session.data.jdbc.plugin.
 
-其它小部件插件就不再描述，后面完善再补充，后面一遍遍再完善...。
+Other widget plug-ins will not be described anymore, they will be perfected and then added later, and will be perfected again and again later...
 
-#### 版本
+#### Version
 
 Jdk V1.8
 
-目前项目 1.0-SNAPSHOT
+Current project 1.0-SNAPSHOT
 
-#### 前端架构
+#### Front-end architecture
 
-之前前端也考虑用single-spa的vue来实现，但是总体还是不太合适，前后端一体化实现还是AngularJS 1.x最合适，目前！
+Previously, the front-end was also considered to be implemented with single-spa's vue, but overall it is still not suitable. The integration of the front-end and the back-end is still the most suitable for AngularJS 1.x, currently!
 
 1. AngularJS v1.4.7
 2. angular-ui-bootstrap v0.12.1
 3. query v3.5.1
-4. CodeMirror 
+4. CodeMirror
 5. Xterm.js
 
-#### 运行调试
+#### Run debugging
 
-1.  现在只是雏形··下载代码跑一下，看看代码！
-2.  ghost.framework.platform 项目作为测试启动项目
-3.  application.properties 配置 ghost.framework.datasource.url，ghost.framework.datasource.username， 
-    ghost.framework.datasource.password三个数据库参数
-    ghost.framework.web.default.server.port修改下端口
-4.  创建一个ghost_session和ghost-framework两个空白数据库
-5.  ghost.framework.platform.PlatformApplication的私库修改为您自己的库注解 @MavenDepositorys修改下为自己的私库，与根目录pom.xml修改 
-    下私库配置。
-    如果自己没搭建私库可以在项目maven测试私库配置文件下的私库配置文件作为测试，那么直接下载代码后配置下maven文件就可以，可能有点慢！
-6.  maven deploy打包完成后就可以启动运行看效果
-#### 使用说明
+1. Now it's just a prototype... Download the code and run it, and take a look at the code!
+2. The ghost.framework.platform project is used as a test startup project
+3. Application.properties configuration ghost.framework.datasource.url, ghost.framework.datasource.username,
+    ghost.framework.datasource.password three database parameters
+    ghost.framework.web.default.server.port modify the port
+4. Create two blank databases ghost_session and ghost-framework
+5. The private library of ghost.framework.platform.PlatformApplication is modified to your own library. Note @MavenDepositorys is modified to your own private library, and the root directory pom.xml is modified
+    Private library configuration.
+    If you have not built a private library, you can test the private library configuration file under the project maven private library configuration file as a test, then you can directly download the code and configure the maven file, which may be a bit slow!
+6. After maven deploy is packaged, you can start and run to see the effect
+#### Instructions for use
 
-1.  后面spring生态有的功能都会有，spring生态没有的功能也会有，缺联合贡献者！
-2.  xxxx
-3.  xxxx
+1. There will be some functions in the spring ecology, and there will be functions not in the spring ecology. There is a lack of joint contributors!
+2. xxxx
+3. xxxx
 
-#### 参与贡献
+#### Participate in contribution
 
-1.  项目招募联合贡献者，交流QQ：27048384，交流群QQ：29044972，微信手机：13715848993
-2.  联合贡献者前期完善内容aop切面插件、transaction事务插件、jpa插件、mongodb插件、mybatis插件、redis插件、nginx插件、swagger插件、脚本管理插件、idea插件等等。
-3.  联合贡献者全程做技术交流，期望联合贡献者有周末时间接触交流，交流地点深圳。
-4.  目标能把项目做成一个完善的开源模块化paas项目。
+1. The project recruits joint contributors, exchange QQ: 27048384, exchange group QQ: 29044972, WeChat mobile phone: 13715848993
+2. Joint contributors in the early stage to improve the content aop aspect plugin, transaction transaction plugin, jpa plugin, mongodb plugin, mybatis plugin, redis plugin, nginx plugin, swagger plugin, script management plugin, idea plugin, etc.
+3. The joint contributors will conduct technical exchanges throughout the whole process. It is expected that the joint contributors will have weekend time to contact and exchange, and the exchange will be in Shenzhen.
+4. The goal is to make the project a complete open source modular paas project.
 
-####  商业模式
+####  business model
 ![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E6%80%BB%E4%BD%93%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.jpg)
 ![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/C%E3%80%81B%E3%80%81D%E7%AB%AF%E7%9A%84%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F.jpg)
 
-#### 架构模型
+#### Architecture model
 
 ![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%9E%8B.png)
 
-#### 启动流程
+#### Start the process
 
 ![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B.png)
 
-#### 类型Bean流程（跟代码有点差别还没改）
+#### Type Bean process (a little bit different from the code has not been changed)
 
 ![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E7%B1%BB%E5%9E%8B%E6%B3%A8%E8%A7%A3Bean%E6%B5%81%E7%A8%8B.jpg)
 
-#### 实例效果图片
+#### Example effect picture
 
 ![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/ssh%E6%8F%92%E4%BB%B6%E6%95%88%E6%9E%9C.jpg)
 ![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E5%B7%A6%E8%BE%B9%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E5%AE%B9%E5%99%A8.jpg)
@@ -108,6 +108,6 @@ Jdk V1.8
 ![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E5%B7%A6%E8%BE%B9%E6%95%88%E6%9E%9C.jpg)
 ![Image text](https://gitee.com/ghost-framework/mpaas/raw/master/img/%E9%A1%B6%E9%83%A8%E5%AF%BC%E8%88%AA%E8%8F%9C%E5%8D%95%E6%8F%92%E4%BB%B6%E5%AE%B9%E5%99%A8.jpg)
 
-#### 实例效果预览
+#### Example effect preview
 
-[预览地址](http://mpaas.easy-cloud.online:8888)
+[Preview address](http://mpaas.easy-cloud.online:8888)
