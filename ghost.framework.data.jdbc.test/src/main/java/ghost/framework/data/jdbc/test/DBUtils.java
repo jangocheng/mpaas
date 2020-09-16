@@ -15,7 +15,7 @@ public class DBUtils {
     private static String driverClass = "com.mysql.cj.jdbc.Driver";
     private static String url = "jdbc:mysql://192.168.1.12:3306/test";
     private static String user = "root";
-    private static String pwd = "xbb79824836";
+    private static String pwd = "123456";
     static {
 //        ResourceBundle resourceBundle = ResourceBundle.getBundle("dbinfo");
 //        driverClass = resourceBundle.getString("driverClass");
