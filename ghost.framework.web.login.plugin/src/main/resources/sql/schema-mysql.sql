@@ -1,9 +1,9 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : mysql.easy-cloud.online
+Source Server         : 127.0.0.1
 Source Server Version : 50729
-Source Host           : mysql.easy-cloud.online:3306
+Source Host           : 127.0.0.1:3306
 Source Database       : GHOST-FRAMEWORK
 
 Target Server Type    : MYSQL
