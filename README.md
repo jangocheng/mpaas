@@ -1,5 +1,8 @@
 # mpaas
 
+https://gitee.com/ghost-framework/mpaas
+https://github.com/guoshucan/mpaas
+
 #### Introduction
 ghost framework mpaas A set of fully modularized Paas platform infrastructure, here can be IaaS, SaaS, etc., as long as you write the corresponding module or plug-in function, there will be corresponding service functions, perfect interpretation of the international modular paas concept , Ci/cd, develop plug-in modularization, a set of imaginative modular infrastructure...
 
