@@ -24,7 +24,7 @@ public class GanymedUtil {
     public static void main(String[] args) throws IOException, JSchException {
         // TODO Auto-generated method stub
 
-//        String host = "www.easy-cloud.online";
+//        String host = "www.xxx.com";
 //        int port = 12;
         //内网
         String host = "192.168.1.12";
