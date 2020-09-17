@@ -27,8 +27,8 @@ import org.apache.log4j.Logger;
 //@ConfigurationPropertiess({@ConfigurationProperties, @ConfigurationProperties(path = "HikariDataSource.yml")})
 //1 注释依赖maven仓库
 @MavenDepositorys({
-//        @MavenDepository(id = "maven-snapshots", type = "default", username = "admin", password = "79824836", url = "http://nexus.easy-cloud.online:8081/repository/maven-snapshots/"),
-        @MavenDepository(id = "default", type = "default", username = "admin", password = "79824836", url = "http://nexus.easy-cloud.online:8081/repository/maven-public/"),
+//        @MavenDepository(id = "maven-snapshots", type = "default", username = "admin", password = "123456", url = "http://www.xxx.com:8081/repository/maven-snapshots/"),
+        @MavenDepository(id = "default", type = "default", username = "admin", password = "123456", url = "http://www.xxx.com:8081/repository/maven-public/"),
 //        @MavenDepository(id = "default", url = "https://maven.aliyun.com/repository/central"),
 //        @MavenDepository(id = "default", url = "http://maven.aliyun.com/nexus/content/groups/public/")
 })

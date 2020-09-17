@@ -28,42 +28,42 @@
             <url>http://repo2.maven.org/maven2/</url>
         </mirror>
 		-->
-        <!-- nexus私库 
+        <!-- nexus私库
         <mirror>
             <id>maven-public</id>
             <mirrorOf>central</mirrorOf>
             <name>Nexus Mirror.</name>
-            <url>http://nexus.easy-cloud.online:8081/repository/maven-public/</url>
+            <url>http://www.xxx.com:8081/repository/maven-public/</url>
         </mirror>-->
-    </mirrors> 
+    </mirrors>
 	<!--配置私库账号密码-->
-	<servers> 
+	<servers>
     	<!--发布版本
 	   <server>
            <id>maven-public</id>
            <username>admin</username>
-           <password>79824836</password>
+           <password>123456</password>
         </server>-->
     	<!--发布版本-->
 	   <server>
            <id>maven-releases</id>
            <username>admin</username>
-           <password>79824836</password>
+           <password>123456</password>
         </server>
 	    <!--开发快照版本-->
         <server>
            <id>maven-snapshots</id>
            <username>admin</username>
-           <password>79824836</password>
+           <password>123456</password>
         </server>
-	</servers> 
+	</servers>
     <profiles>
         <profile>
             <id>maven-releases</id>
             <repositories>
                 <repository>
                     <id>maven-releases</id>
-                    <url>http://nexus.easy-cloud.online:8081/repository/maven-releases/</url>
+                    <url>http://www.xxx.com:8081/repository/maven-releases/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
@@ -75,7 +75,7 @@
             <pluginRepositories>
                 <pluginRepository>
                     <id>maven-releases</id>
-                    <url>http://nexus.easy-cloud.online:8081/repository/maven-releases/</url>
+                    <url>http://www.xxx.com:8081/repository/maven-releases/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
@@ -90,7 +90,7 @@
             <repositories>
                 <repository>
                     <id>maven-snapshots</id>
-                    <url>http://nexus.easy-cloud.online:8081/repository/maven-snapshots/</url>
+                    <url>http://www.xxx.com:8081/repository/maven-snapshots/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>
@@ -102,7 +102,7 @@
             <pluginRepositories>
                 <pluginRepository>
                     <id>maven-snapshots</id>
-                    <url>http://nexus.easy-cloud.online:8081/repository/maven-snapshots/</url>
+                    <url>http://www.xxx.com:8081/repository/maven-snapshots/</url>
                     <releases>
                         <enabled>true</enabled>
                     </releases>

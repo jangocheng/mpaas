@@ -34,7 +34,7 @@ public final class CoreMavenUtil {
 
     /**
      * 将字符maven仓库信息转换对象
-     * 仓库文档参数格式maven-public,default,Username,Password,http://nexus.easy-cloud.online:8081/repository/maven-public/
+     * 仓库文档参数格式maven-public,default,Username,Password,http://www.xxx.com:8081/repository/maven-public/
      *
      * @param repository
      * @return
@@ -64,7 +64,7 @@ public final class CoreMavenUtil {
 
     /**
      * 将字符maven仓库信息转换对象
-     * 仓库文档参数格式maven-public,default,Username,Password,http://nexus.easy-cloud.online:8081/repository/maven-public/|maven-public,default,Username,Password,http://nexus.easy-cloud.online:8081/repository/maven-public/
+     * 仓库文档参数格式maven-public,default,Username,Password,http://www.xxx.com:8081/repository/maven-public/|maven-public,default,Username,Password,http://www.xxx.com:8081/repository/maven-public/
      *
      * @param repositorys
      * @return

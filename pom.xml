@@ -17,7 +17,7 @@
         <repository>
             <id>maven-public</id>
             <name>maven-public</name>
-            <url>http://nexus.easy-cloud.online:8081/repository/maven-public/</url>
+            <url>http://www.xxx.com:8081/repository/maven-public/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -28,7 +28,7 @@
         <repository>
             <id>maven-snapshots</id>
             <name>maven-snapshots</name>
-            <url>http://nexus.easy-cloud.online:8081/repository/maven-snapshots/</url>
+            <url>http://www.xxx.com:8081/repository/maven-snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -42,19 +42,19 @@
         <!--配置发布版仓库-->
         <repository>
             <id>maven-releases</id>
-            <url>http://nexus.easy-cloud.online:8081/repository/maven-releases/</url>
+            <url>http://www.xxx.com:8081/repository/maven-releases/</url>
         </repository>
         <!--配置快照版仓库-->
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <url>http://nexus.easy-cloud.online:8081/repository/maven-snapshots/</url>
+            <url>http://www.xxx.com:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <pluginRepositories>
         <pluginRepository>
             <id>maven-public</id>
             <name>maven-public</name>
-            <url>http://nexus.easy-cloud.online:8081/repository/maven-public/</url>
+            <url>http://www.xxx.com:8081/repository/maven-public/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -64,14 +64,14 @@
         </pluginRepository>
         <pluginRepository>
             <id>maven-releases</id>
-            <url>http://nexus.easy-cloud.online:8081/repository/maven-releases/</url>
+            <url>http://www.xxx.com:8081/repository/maven-releases/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
         </pluginRepository>
         <pluginRepository>
             <id>maven-snapshots</id>
-            <url>http://nexus.easy-cloud.online:8081/repository/maven-snapshots/</url>
+            <url>http://www.xxx.com:8081/repository/maven-snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
